@@ -1,54 +1,54 @@
 # EDA_On_Automobile_Customer_Segmentation_Data
- Project Overview
-EDA on Automobile Customer Segmentation Dataset aims to help an automobile company understand its customer base better before entering new markets. By leveraging historical customer data, the project performs segmentation and builds predictive models to guide targeted marketing strategies.
+EDA On Automobile Customer Segmentation Data
 
- Dataset Description
-The dataset includes customer information such as:
+An automobile company plans to enter new markets with their existing products (P1, P2, P3, P4, and P5). After intensive market research, they’ve deduced that the behavior of the new market is similar to their existing one. In their current market, the sales team classified customers into 4 segments (A, B, C, D) and performed segmented outreach and communication accordingly.
 
-*Gender
+---
 
-*Age
+## 📊 Project Overview
 
-*Ever Married
+This project performs **Exploratory Data Analysis (EDA)** on the customer dataset to uncover insights, understand segment behavior, and develop predictive models for customer segmentation.
 
-*Graduated
+---
 
-*Profession
+## 🔍 Dataset Description
 
-*Work Experience
+The dataset includes the following features:
 
-*Spending Score
+- `Gender`
+- `Age`
+- `Ever Married`
+- `Graduated`
+- `Profession`
+- `Work Experience`
+- `Spending Score`
+- `Family Size`
+- `Segmentation` (A, B, C, D)
 
-*Family Size
+---
 
-*Customer Segmentation Label (A, B, C, D)
+## ⚙️ Operations Performed
 
-Operations Performed
-1. Data Pre-processing
-Handled missing values and inconsistencies.
+### 1. Data Pre-processing
+- Handled missing values.
+- Encoded categorical features.
+- Engineered new features (e.g., `Age_Group`, `Spending_Score_Encoded`).
 
-Converted categorical data to numerical format using encoding techniques.
+### 2. Exploratory Data Analysis (EDA)
+- Visualized distributions of numerical and categorical features.
+- Used boxplots to analyze relationships (e.g., Age vs. Spending Score).
+- Created correlation matrices.
+- Analyzed customer distribution across segments.
 
-Created additional features like age groups and encoded spending score.
+### 3. Predictive Modeling
+- Built classification models (Logistic Regression, Decision Trees, Random Forest).
+- Evaluated models using accuracy, precision, recall, and confusion matrix.
+- Identified important features influencing segmentation.
 
-2. Exploratory Data Analysis (EDA)
-Distribution plots for numerical features.
+---
 
-Count plots and bar graphs for categorical variables.
+## 🎯 Objective
 
-Boxplots to visualize relationships between age and spending score.
+To segment customers effectively using demographic and behavioral data, enabling personalized marketing and aiding the company’s entry into new markets with data-driven strategy.
 
-Correlation matrix to find inter-feature relationships.
-
-Segmentation-wise demographic and behavioral analysis.
-
-3. Predictive Modeling
-Built classification models (e.g., Logistic Regression, Decision Trees, Random Forests) to predict customer segments.
-
-Evaluated model performance using accuracy, precision, recall, and confusion matrix.
-
-Identified key features influencing customer segmentation.
-
- Objective
-To segment customers effectively based on demographics and behavioral data to support personalized marketing and optimize the go-to-market strategy for new territories.
 
