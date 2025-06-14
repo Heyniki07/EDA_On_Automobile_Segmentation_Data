@@ -54,4 +54,6 @@ To segment customers effectively using demographic and behavioral data, enabling
 To predict the segment category of new 
 feature automatically to focus on segmented strategies.
 
+**AUTHOR** - Nikita Deshmukh 
+
 
