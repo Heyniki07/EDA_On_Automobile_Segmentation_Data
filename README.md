@@ -41,7 +41,7 @@ The dataset includes the following features:
 - Analyzed customer distribution across segments.
 
 ### 3. Predictive Modeling
-- Built classification models (Logistic Regression, Decision Trees, Random Forest).
+- Built classification models (Logistic Regression).
 - Evaluated models using accuracy, precision, recall, and confusion matrix.
 - Identified important features influencing segmentation.
 
@@ -50,5 +50,8 @@ The dataset includes the following features:
 ## 🎯 Objective
 
 To segment customers effectively using demographic and behavioral data, enabling personalized marketing and aiding the company’s entry into new markets with data-driven strategy.
+
+To predict the segment category of new 
+feature automatically to focus on segmented strategies.
 
 
